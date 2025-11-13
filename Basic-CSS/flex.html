@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .cardContainer {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .newThumbnail {
+            width: 100px;
+        }
+
+        .card {
+            border: 1px solid red;
+        }
+
+        #centerContainer {
+            border: 1px solid red;
+            width: 600px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #centerElement {
+            border: 1px solid blue;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h2>Breaking news!</h2>
+        <section class="cardContainer">
+            <div class="card">
+                <h3>Breaking news 1</h3>
+                <p>
+                    Very important news! Must read!
+                </p>
+            </div>
+
+            <div class="card">
+                <img class="newThumbnail"
+                    src="https://images.unsplash.com/photo-1652218215049-02886d5e45ed?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=764"
+                    alt="maxVerstappen" />
+                <h3>Breaking news 2</h3>
+                <p>
+                    Very important news! Must read!
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Breaking news 3</h3>
+                <p>
+                    Very important news! Must read!
+                </p>
+            </div>
+        </section>
+    </section>
+
+    <div id="centerContainer">
+        <div id="centerElement">ลูก</div>
+    </div>
+</body>
+
+</html>

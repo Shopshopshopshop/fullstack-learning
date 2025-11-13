@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label>Username:
+            <input id="username" type="text" placeholder="johndoe" />
+        </label>
+        <label>
+            Password:
+            <input id="password" type="password" placeholder="********" />
+        </label>
+        <label>
+            Email:
+            <input id="email" type="email" placeholder="johndoe@example.com" />
+        </label>
+
+        <h2>Favorites Food</h2>
+        <label>
+            <input name="favoritesfood" value="somtum" type="checkbox">
+            ส้มตำ
+        </label>
+        <label>
+            <input name="favoritesfood" value="lab" type="checkbox">
+            ลาบ
+        </label>
+        <label>
+            <input name="favoritesfood" value="namtok" type="checkbox">
+            น้ำตก
+        </label>
+
+        <h2>ใช่หรือไม่</h2>
+        <label>
+            <input name="yesOrNo" value="yes" type="radio">
+            ใช่
+        </label>
+
+        <label>
+            <input name="yesOrNo" value="mayBe" type="radio">
+            อาจจะ
+        </label>
+
+        <label>
+            <input name="yesOrNo" value="no" type="radio">
+            ไม่
+        </label>
+
+        <h2>Province</h2>
+        <select name="province" id="province">
+            <option selected value="bangkok">Bangkok</option>
+            <optgroup label="Central">
+                <option value="pathumthani">Pathum Thani</option>
+                <option value="nonthaburi">Nonthaburi</option>
+            </optgroup>
+            <optgroup label="North">
+                <option value="lamphun">Lamphun</option>
+                <option value="lampang">Lampang</option>
+            </optgroup>
+            <optgroup label="South">
+                <option value="suratthani">Surat Thani</option>
+                <option value="nakhonsithammarat">Nakhon Si Thammarat</option>
+            </optgroup>
+        </select>
+        <label>
+            Comment:
+            <textarea name="comment"></textarea>
+        </label>
+
+        <label>
+            <input type="checkbox" required>ยอมรับข้อตกลง
+                </label>
+
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
