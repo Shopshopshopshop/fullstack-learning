@@ -11,4 +11,4 @@ My only goal is to summarize what I’ve learned and reinforce my knowledge whil
 
 If you want to study the full course, you can check it out directly on the official Futureskill website.
 
-I will be updating this repository frequently as I continue learning.
+I will be updating this repository frequently as I continue learning. See ya bro!!!
