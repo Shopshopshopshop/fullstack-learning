@@ -88,7 +88,7 @@ Here’s an example:
 ```
 ✨ Text Content: Headings, Paragraphs, and Formatting
 
-I learned how to use headings (<h1> to <h6>), paragraphs (<p>), and basic text formatting such as:
+I learned how to use headings (```<h1>``` to ```<h6>```), paragraphs (```<p>```), and basic text formatting such as:
 	•	<strong> for bold
 	•	<em> for italic
 
